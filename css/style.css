@@ -64,11 +64,11 @@ position:absolute;
     top: -100px; /* al principio estará oculto */        
 }
 .caritafeliz {
-    background-image: url("images/caritafeliz.png");
+    background-image: url("../images/caritafeliz.png");
 }
 
 .caritapensar {
-    background-image: url("images/caritapensar.png");
+    background-image: url("../images/caritapensar.png");
 }
 .clearfix:after {
     clear: both;
