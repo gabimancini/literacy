@@ -3,39 +3,24 @@
     font-family:"Schoolbell", cursive; ;
     src: url(https://fonts.googleapis.com/css?family=Schoolbell );
 }
-h1,h3 {
-    font-family: 'Schoolbell', cursive;
+body{margin:0;  background-image: url("../images/fondo.jpg");background-attachment: fixed 
 }
-.main{width:1000px;
-	margin: 1% 10%;
-position:absolute;
-		background-color:#FE9A2E;
-		padding:1em;
-		}
-		
-		.box1, .box2 {
-		width:23%;
-		float:left;
-	 display: inline-block;
+h3 {font-family: 'Schoolbell', cursive;color:#fff;}
+.intro{ 
+	  padding: 0px 20px 5px 20px;
+   font-family: 'Schoolbell', cursive;
+    background: rgba(255, 255, 255, 0.5);}
 
-		margin-bottom:2em;
+.main{ margin: 2% 10%;position:absolute; background: rgba(255, 255, 255, 0.5);padding:1em; border-radius:6px;}
 		
-		}
-		.box1{ 
-		background-color:#fff;}
-		.box2 {margin-right:0.5em;
-		background-color:#ccc;padding:10px;
-		}
-	 .btn{
-	 background-color:#04B431;
-	 color:#fff;
-	 margin-bottom:2em;
-	 padding:4px;
-	 }
+		.box1, .box2 {width:250px; float:left; display: inline-block; margin-bottom:2em; position:relative;}
+		.box1{ background-color:#fff; }
+		.box2 {margin-right:1em; ;padding:10px;}
+	  
 		.notificar {
-    background-color: #59AADA;
+    background-color:#04B404;
     border-radius: 6px;
-    border: 1px solid #60B4E5;
+    border: 1px solid #01DF01;
     color: #FFFFFF;
     display: block;
     font-weight: bold;
@@ -48,14 +33,14 @@ position:absolute;
 }
 
 .notificar:hover {
-    background-color: #4a94bf;
+    background-color: #298A08;
 }
 #notificacion {
     background-color: #F2F2F2;
     background-repeat: no-repeat; /* lo utilizaremos cuando indiquemos el ícono */
     font-family: Helvetica;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 90px;
     position: absolute;
     text-align: center;         
     width: 30%;
